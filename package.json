@@ -1,0 +1,21 @@
+{
+  "name": "bot-discord-by-shai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shai",
+  "license": "ISC",
+
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "discord.js": "^12.5.3",
+    "discord_love": "^1.0.3",
+    "humanize-duration": "^3.27.0",
+    "moment": "^2.29.1",
+    "parse-duration": "^1.0.0"
+  }
+}
