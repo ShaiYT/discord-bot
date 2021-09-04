@@ -1,6 +1,6 @@
 {
     "token": "Your token",
-    "prefix": "!",
+    "prefix": "Your prefix",
     "greeting": {
         "channel": "867806122608951336",
         "role": "867855218020843540"
