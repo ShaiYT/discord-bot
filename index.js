@@ -1,5 +1,5 @@
 ///Bot coder par Shai https://discord.gg/fjvvwneYZE
-
+///Bot coder par Shai https://discord.gg/fjvvwneYZE
 const Discord = require('discord.js'),
     client = new Discord.Client({
         fetchAllMembers: true,
