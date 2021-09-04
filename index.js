@@ -1,3 +1,5 @@
+///Bot coder par Shai https://discord.gg/fjvvwneYZE
+
 const Discord = require('discord.js'),
     client = new Discord.Client({
         fetchAllMembers: true,
@@ -38,7 +40,7 @@ client.on('message', message => {
             setTimeout(() => cooldown.delete(id), duration)
         }
     }
- 
+ ///Bot coder par Shai https://discord.gg/fjvvwneYZE
     const args = message.content.trim().split(/ +/g)
     const commandName = args.shift().toLowerCase()
     if (!commandName.startsWith(config.prefix)) return
@@ -97,7 +99,7 @@ client.on('ready', () => {
         client.channels.cache.get(config.serverStats.total).setName(`Total : ${client.guilds.cache.first().memberCount}`)
     }, 3e4)
 })
- 
+ ///Bot coder par Shai https://discord.gg/fjvvwneYZE
 client.on('channelCreate', channel => {
     if (!channel.guild) return
     const muteRole = channel.guild.roles.cache.find(role => role.name === 'Muted')
@@ -108,3 +110,7 @@ client.on('channelCreate', channel => {
         ADD_REACTIONS: false
     })
 })
+///Bot coder par Shai https://discord.gg/fjvvwneYZE
+///Bot coder par Shai https://discord.gg/fjvvwneYZE
+///Bot coder par Shai https://discord.gg/fjvvwneYZE
+///Bot coder par Shai https://discord.gg/fjvvwneYZE
